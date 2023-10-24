@@ -12,7 +12,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 p {
@@ -62,7 +61,7 @@ h1 {
 
 .container {
   max-width: 700px;
-  height: 700px;
+  height: 500px;
   margin: auto;
   padding: 0 1rem;
   position: relative;
@@ -97,4 +96,14 @@ h1 {
 
 .bold {
   font-weight: 700;
+}
+.temp{
+
+  display: flex;
+  flex-direction: column;
+}
+.big{
+  font-weight: 700;
+
+  font-size: 6rem;
 }
